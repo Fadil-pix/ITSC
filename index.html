@@ -1,159 +1,290 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ITSC STEMSEND</title>
+    <title>ITSC STEMSEND — Information Technology Study Community</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="asset/itsc.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-    <div class="container">
-        <!-- Navbar -->
-        <div class="container-navbar">
-          <div class="logo"><img src="asset/logo2.png" alt=""></div>
-          <a href="#" class="name"><span></span></a>
-          <div class="menu">
-              <a href="#home">Home</a>
-              <a href="#about">About</a>
-              <a href="#divisi">Divisi</a>
-              <a href="#kegiatan">Kegiatan</a>
-          </div>
-          <div class="hamburger" onclick="toggleMenu()">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
-          </div>
-      </div>
-      
 
-        <!-- Home -->
-        <div class="container-home" id="home">
-          <h1>Selamat Datang Di <br><span>WEB ITSC</span></h1>
-          <p>Disini kami akan menjelaskan apa itu ITSC dan kalian akan melihat Bagaimanakah itu ITSC,Mau tauu???  <a href="#about">LETSS GOO!!!</a></p>
-          <div class="follow">
-            <a href="https://www.instagram.com/itsc_smkn2klt/">Follow Us</a>
-          </div>
-        </div>
-    </div>
-
-    <!-- About -->
-    <div class="about" id="about">
-        <h1>Tentang <span>ITSC</span></h1>
-        <div class="container-about">
-            <div class="container-about-child">
-                <img src="asset/itsc.jpg" alt="logo-itsc">
-                <div class="content">
-                <h3>Apa Itu ITSC ?</h3>
-                <p>
-                    Information Technology Study Community atau disingkat dengan nama ITSC,
-                    didirikan pada tanggal 30 Juli 2013. ITSC sendiri merupakan sebuah organisasi/komunitas yang beranggotakan
-                    siswa/siswi SIJA SMK N 2 Klaten. Salah satu misi ITSC adalah terwujudnya SMK N 2 Klaten sebagai sekolah menengah
-                    yang maju dalam bidang “Teknologi & Informasi” dan berdaya guna bagi siswa siswi SMK N 2 Klaten.</p>
-                <p>
-                    ITSC didirikan untuk mengenal lebih dalam tentang SMK Negeri 2 Klaten,
-                    khususnya Program Keahlian SIJA (Sistem Informasi Jaringan Aplikasi) yang menjadi pelopor terbentuknya ITSC.
-                    ITSC memiliki struktur organisasi yang telah dituangkan dalam AD/ART dan memiliki beberapa Divisi. 
-                    adapun Divisi yang ada di ITSC antara lain Divisi Software Aplikasi, Divisi Networking(Jaringan), Divisi Design Komunikasi Visual, Divisi SIot dan Divisi Web Development.
-                </p>
-                </div>
-            </div>
-        </div>
-      </div>
-
-    <!-- Divisi -->
-    <div class="container-divisi" id="divisi">
-        <h1>Divisi <span>ITSC</span></h1>
-        <div class="img-divisi">
-          <img src="asset/divisi.jpg" alt="divisi">
-        </div>
-        <div class="divisi-title">
-          <h3>Apa Itu Divisi?</h3>
-          <p>
-            Divisi adalah suatu kegiatan pembelajaran yang didalamnya membahas seputar 
-            “Informasi & Technology”. Divisi ini dilaksanakan setiap satu minggu sekali,
-            dan wajib diikuti oleh siswa siswi kelas X-XI SIJA
-          </p>
-        </div>
-        <h3>Berikut Divisi Divisi yang ada di ITSC</h3>
-        <div class="divisi">
-          <div class="menu-card">
-            <img src="asset/Apk.JPG" alt="Aplikasi" class="menu-card-img">
-            <p class="menu-card-title">Divisi Aplikasi</p>
-          </div>
-
-          <div class="menu-card">
-            <img src="asset/dweb.jpeg" alt="Web Development" class="menu-card-img">
-            <p class="menu-card-title">Divisi Web Development</p>
-          </div>
-
-          <div class="menu-card">
-            <img src="asset/Jaringan.JPG" alt="Jaringan" class="menu-card-img">
-            <p class="menu-card-title">Divisi Jaringan (Networking)</p>
-          </div>
-
-          <div class="menu-card">
-            <img src="asset/diot.jpeg" alt="SIoT" class="menu-card-img">
-            <p class="menu-card-title">SIoT (System Internet of Things)</p>
-          </div>
-
-          <div class="menu-card">
-            <img src="asset/ddkv.jpeg" alt="DKV" class="menu-card-img">
-            <p class="menu-card-title">Divisi DKV (Desain Komunikasi Visual)</p>
-          </div>
-        </div>
-    </div>
-
-    <!-- Kegiatan -->
-    <div class="container-kegiatan" id="kegiatan">
-      <h1>Kegiatan Tahunan <span>ITSC</span></h1>
-      <div class="kegiatan">
-        <img src="asset/calling2.jpeg" alt="calling">
-        <h3>Characteristic and Leadership Building (CALLING)</h3>
-        <p>Calling adalah sebuah event atau kegiatan yang diadakan untuk pengenalan awal yang bertujuan untuk memperkenalkan organisasi ITSC pada anggota baru.</p>
-      </div>
-      <div class="kegiatan">
-        <img src="asset/hakrab2.jpeg" alt="hakrab">
-        <h3>Hari Keakraban (HAKRAB)</h3>
-        <p>Hakrab adalah kegiatan yang diadakan untuk lebih merekatkan hubungan antara siswa siswi lingkup SIJA sehingga para anggota akan menjadi lebih solid.</p>
-      </div>
-      <div class="kegiatan">
-        <img src="asset/itfest2.jpeg" alt="IT-Fest">
-        <h3>IT-FEST</h3>
-        <p>IT-Fest adalah sebuah event perlombaan setiap divisi yang bertujuan untuk memberikan hasil yang dipelajari siswa siswi selama divisi. Selain itu, IT-Fest juga bertujuan untuk mencari “bibit unggul” untuk jurusan.</p>
-      </div>
-      <div class="kegiatan">
-        <img src="asset/seminar.JPG" alt="seminar">
-        <h3>Seminar</h3>
-        <p>Seminar adalah pertemuan antara narasumber dan peserta seminar yang membahas tentang "informasi & technology".Acara ini melibatkan presentasi, diskusi, dan sesi tanya jawab untuk berbagi pengetahuan dan wawasan tentang teknologi terkini.</p>
-      </div>
-    </div>
-      <!-- Awal Footer -->
-      <footer>
-  
-        <div class="sosial">
-          <a href="https://www.instagram.com/itsc_smkn2klt/"><i data-feather="instagram"></i></a>
-          <a href="https://github.com/ITSC-Stemsend"><i data-feather="github"></i></a>
-          <a href="https://web.facebook.com/itscstemsen/?_rdc=1&_rdr"><i data-feather="facebook"></i></a>
-          </div>
-          
-          <div class="links">
+    <!-- Navbar -->
+    <header class="container-navbar" id="navbar">
+        <a href="#home" class="logo"><img src="asset/logo2.png" alt="Logo ITSC"></a>
+        <a href="#home" class="name">ITSC<span>_stemsend</span></a>
+        <nav class="menu" id="menu">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#divisi">Divisi</a>
             <a href="#kegiatan">Kegiatan</a>
-          </div>
-  
-          <div class="credit">
-            <p>Created by <a href="https://www.instagram.com/suryaaa_28">Surya_GS XI SIJA B</a> | &copy; 2024.</p>
-          </div>
-      </footer>
-      <!-- Akhir Footer -->
-      <!-- Icons -->
-      <script>
+        </nav>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Buka menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <!-- Home -->
+    <section class="container-home" id="home">
+        <div class="doodle-layer doodle-dark" aria-hidden="true"></div>
+        <div class="home-inner">
+            <div class="home-text">
+                <p class="eyebrow">&lt; selamat_datang /&gt;</p>
+                <h1>Kenalan Yuk Sama <span>ITSC</span></h1>
+                <p class="lead">Information Technology Study Community — tempat siswa-siswi SIJA SMK N 2 Klaten belajar, berkarya, dan bertumbuh bareng di dunia IT.</p>
+                <div class="home-cta">
+                    <a href="#about" class="btn btn-primary">Jelajahi ITSC <i data-feather="arrow-down-right"></i></a>
+                    <a href="https://www.instagram.com/itsc_smkn2klt/" class="btn btn-ghost" target="_blank" rel="noopener">
+                        <i data-feather="instagram"></i> Follow Us
+                    </a>
+                </div>
+            </div>
+            <div class="home-visual">
+                <div class="term-card float-card">
+                    <div class="term-bar">
+                        <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+                        <span class="term-file">itsc.info</span>
+                    </div>
+                    <div class="term-body">
+                        <img src="asset/itsc.jpg" alt="Logo ITSC" class="term-img">
+                        <p><span class="prompt">$</span> whoami</p>
+                        <p class="term-out">ITSC · est. 30 Juli 2013</p>
+                        <p><span class="prompt">$</span> status</p>
+                        <p class="term-out term-ok">Aktif &amp; terus berkarya</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="doodle-layer doodle-light" aria-hidden="true"></div>
+        <p class="eyebrow eyebrow-center">// tentang kami</p>
+        <h2 class="section-title">Apa Itu <span>ITSC</span>?</h2>
+        <div class="container-about">
+            <div class="container-about-child">
+                <div class="term-card">
+                    <div class="term-bar">
+                        <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+                        <span class="term-file">about-itsc.jpg</span>
+                    </div>
+                    <div class="img-frame">
+                        <img src="asset/itsc.jpg" alt="Logo ITSC" loading="lazy">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Sekilas Cerita ITSC</h3>
+                    <p>
+                        Information Technology Study Community, disingkat <strong>ITSC</strong>, didirikan pada tanggal 30 Juli 2013.
+                        ITSC merupakan organisasi/komunitas yang beranggotakan siswa-siswi SIJA SMK N 2 Klaten. Salah satu misi ITSC
+                        adalah mewujudkan SMK N 2 Klaten sebagai sekolah menengah yang maju dalam bidang "Teknologi &amp; Informasi"
+                        dan berdaya guna bagi siswa-siswinya.
+                    </p>
+                    <p>
+                        ITSC didirikan untuk mengenal lebih dalam tentang SMK Negeri 2 Klaten, khususnya Program Keahlian SIJA
+                        (Sistem Informasi Jaringan Aplikasi) yang menjadi pelopor terbentuknya ITSC. ITSC memiliki struktur
+                        organisasi yang telah dituangkan dalam AD/ART dan memiliki beberapa Divisi: Divisi Software Aplikasi,
+                        Divisi Networking (Jaringan), Divisi Design Komunikasi Visual, Divisi SIoT, dan Divisi Web Development.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divisi -->
+    <section class="container-divisi" id="divisi">
+        <div class="doodle-layer doodle-light" aria-hidden="true"></div>
+        <p class="eyebrow eyebrow-center">// divisi</p>
+        <h2 class="section-title">Divisi <span>ITSC</span></h2>
+
+        <div class="intro-split">
+            <div class="term-card intro-img-card">
+                <div class="term-bar">
+                    <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+                    <span class="term-file">divisi.jpg</span>
+                </div>
+                <div class="img-frame ratio-4-3">
+                    <img src="asset/divisi.jpg" alt="Kegiatan Divisi ITSC" loading="lazy">
+                </div>
+            </div>
+            <div class="divisi-title">
+                <h3>Apa Itu Divisi?</h3>
+                <p>
+                    Divisi adalah kegiatan pembelajaran yang membahas seputar "Informasi &amp; Technology". Divisi dilaksanakan
+                    setiap satu minggu sekali, dan wajib diikuti oleh siswa-siswi kelas X-XI SIJA.
+                </p>
+            </div>
+        </div>
+
+        <h3 class="subtle-heading">Berikut Divisi-Divisi yang Ada di ITSC</h3>
+        <p class="hint-text"><i data-feather="mouse-pointer-click"></i> Klik foto untuk melihat lebih jelas</p>
+
+        <div class="card-grid" id="divisiGrid">
+            <button class="menu-card lightbox-trigger" type="button"
+                data-group="divisi" data-img="asset/Apk.JPG"
+                data-title="Divisi Aplikasi"
+                data-desc="Belajar merancang dan membangun aplikasi dari nol, mulai dari logika program sampai tampilan yang siap dipakai.">
+                <span class="mc-bar"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span></span>
+                <span class="mc-img-frame"><img src="asset/Apk.JPG" alt="Divisi Aplikasi" class="menu-card-img" loading="lazy"></span>
+                <span class="menu-card-title">Divisi Aplikasi</span>
+            </button>
+
+            <button class="menu-card lightbox-trigger" type="button"
+                data-group="divisi" data-img="asset/dweb.jpeg"
+                data-title="Divisi Web Development"
+                data-desc="Mengasah kemampuan membangun website, dari struktur HTML, gaya CSS, sampai interaksi dengan JavaScript.">
+                <span class="mc-bar"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span></span>
+                <span class="mc-img-frame"><img src="asset/dweb.jpeg" alt="Divisi Web Development" class="menu-card-img" loading="lazy"></span>
+                <span class="menu-card-title">Divisi Web Development</span>
+            </button>
+
+            <button class="menu-card lightbox-trigger" type="button"
+                data-group="divisi" data-img="asset/Jaringan.JPG"
+                data-title="Divisi Jaringan (Networking)"
+                data-desc="Fokus pada instalasi, konfigurasi, dan troubleshooting jaringan komputer — dari kabel sampai konsep server.">
+                <span class="mc-bar"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span></span>
+                <span class="mc-img-frame"><img src="asset/Jaringan.JPG" alt="Divisi Jaringan" class="menu-card-img" loading="lazy"></span>
+                <span class="menu-card-title">Divisi Jaringan (Networking)</span>
+            </button>
+
+            <button class="menu-card lightbox-trigger" type="button"
+                data-group="divisi" data-img="asset/diot.jpeg"
+                data-title="SIoT (System Internet of Things)"
+                data-desc="Menghubungkan perangkat keras dengan internet — sensor, mikrokontroler, dan sistem otomasi yang saling terkoneksi.">
+                <span class="mc-bar"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span></span>
+                <span class="mc-img-frame"><img src="asset/diot.jpeg" alt="SIoT" class="menu-card-img" loading="lazy"></span>
+                <span class="menu-card-title">SIoT (System Internet of Things)</span>
+            </button>
+
+            <button class="menu-card lightbox-trigger" type="button"
+                data-group="divisi" data-img="asset/ddkv.jpeg"
+                data-title="Divisi DKV (Desain Komunikasi Visual)"
+                data-desc="Menuangkan ide lewat visual — desain grafis, layout, dan identitas kreatif untuk berbagai kebutuhan ITSC.">
+                <span class="mc-bar"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span></span>
+                <span class="mc-img-frame"><img src="asset/ddkv.jpeg" alt="DKV" class="menu-card-img" loading="lazy"></span>
+                <span class="menu-card-title">Divisi DKV (Desain Komunikasi Visual)</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Kegiatan -->
+    <section class="container-kegiatan" id="kegiatan">
+        <div class="doodle-layer doodle-dark" aria-hidden="true"></div>
+        <p class="eyebrow eyebrow-center">// kegiatan tahunan</p>
+        <h2 class="section-title">Kegiatan Tahunan <span>ITSC</span></h2>
+        <p class="hint-text hint-text-dark"><i data-feather="mouse-pointer-click"></i> Klik foto untuk melihat lebih jelas</p>
+
+        <div class="card-grid card-grid-kegiatan" id="kegiatanGrid">
+            <button class="kegiatan lightbox-trigger" type="button"
+                data-group="kegiatan" data-img="asset/calling2.jpeg"
+                data-title="Characteristic and Leadership Building (CALLING)"
+                data-desc="Calling adalah event pengenalan awal yang bertujuan memperkenalkan organisasi ITSC pada anggota baru.">
+                <span class="mc-bar"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span><span class="term-file">calling.jpg</span></span>
+                <span class="mc-img-frame"><img src="asset/calling2.jpeg" alt="Calling" loading="lazy"></span>
+                <span class="kegiatan-text">
+                    <span class="kegiatan-title">Characteristic and Leadership Building (CALLING)</span>
+                    <span class="kegiatan-desc">Event pengenalan awal untuk memperkenalkan organisasi ITSC pada anggota baru.</span>
+                </span>
+            </button>
+
+            <button class="kegiatan lightbox-trigger" type="button"
+                data-group="kegiatan" data-img="asset/hakrab2.jpeg"
+                data-title="Hari Keakraban (HAKRAB)"
+                data-desc="Hakrab diadakan untuk merekatkan hubungan antara siswa-siswi lingkup SIJA sehingga anggota menjadi lebih solid.">
+                <span class="mc-bar"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span><span class="term-file">hakrab.jpg</span></span>
+                <span class="mc-img-frame"><img src="asset/hakrab2.jpeg" alt="Hakrab" loading="lazy"></span>
+                <span class="kegiatan-text">
+                    <span class="kegiatan-title">Hari Keakraban (HAKRAB)</span>
+                    <span class="kegiatan-desc">Merekatkan hubungan siswa-siswi lingkup SIJA agar anggota semakin solid.</span>
+                </span>
+            </button>
+
+            <button class="kegiatan lightbox-trigger" type="button"
+                data-group="kegiatan" data-img="asset/itfest2.jpeg"
+                data-title="IT-FEST"
+                data-desc="IT-Fest adalah event perlombaan tiap divisi untuk menampilkan hasil belajar siswa-siswi selama divisi, sekaligus mencari 'bibit unggul' untuk jurusan.">
+                <span class="mc-bar"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span><span class="term-file">itfest.jpg</span></span>
+                <span class="mc-img-frame"><img src="asset/itfest2.jpeg" alt="IT-Fest" loading="lazy"></span>
+                <span class="kegiatan-text">
+                    <span class="kegiatan-title">IT-FEST</span>
+                    <span class="kegiatan-desc">Perlombaan tiap divisi sekaligus ajang mencari "bibit unggul" untuk jurusan.</span>
+                </span>
+            </button>
+
+            <button class="kegiatan lightbox-trigger" type="button"
+                data-group="kegiatan" data-img="asset/seminar.JPG"
+                data-title="Seminar"
+                data-desc="Seminar adalah pertemuan antara narasumber dan peserta yang membahas 'informasi & technology', melibatkan presentasi, diskusi, dan sesi tanya jawab.">
+                <span class="mc-bar"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span><span class="term-file">seminar.jpg</span></span>
+                <span class="mc-img-frame"><img src="asset/seminar.JPG" alt="Seminar" loading="lazy"></span>
+                <span class="kegiatan-text">
+                    <span class="kegiatan-title">Seminar</span>
+                    <span class="kegiatan-desc">Presentasi, diskusi, dan tanya jawab seputar informasi & teknologi terkini.</span>
+                </span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose" aria-label="Tutup">
+                <i data-feather="x"></i>
+            </button>
+            <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Sebelumnya">
+                <i data-feather="chevron-left"></i>
+            </button>
+            <div class="lightbox-frame">
+                <div class="term-bar lightbox-bar">
+                    <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+                    <span class="term-file" id="lightboxFile"></span>
+                </div>
+                <img src="" alt="" id="lightboxImg">
+                <div class="lightbox-caption">
+                    <h4 id="lightboxTitle"></h4>
+                    <p id="lightboxDesc"></p>
+                </div>
+            </div>
+            <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Berikutnya">
+                <i data-feather="chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="doodle-layer doodle-dark" aria-hidden="true"></div>
+        <div class="footer-inner">
+            <div class="sosial">
+                <a href="https://www.instagram.com/itsc_smkn2klt/" target="_blank" rel="noopener"><i data-feather="instagram"></i></a>
+                <a href="https://github.com/ITSC-Stemsend" target="_blank" rel="noopener"><i data-feather="github"></i></a>
+                <a href="https://web.facebook.com/itscstemsen/?_rdc=1&_rdr" target="_blank" rel="noopener"><i data-feather="facebook"></i></a>
+            </div>
+
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#divisi">Divisi</a>
+                <a href="#kegiatan">Kegiatan</a>
+            </div>
+
+            <div class="credit">
+                <p>Created by <a href="https://www.instagram.com/suryaaa_28" target="_blank" rel="noopener">Surya_GS XI SIJA B</a> | &copy; 2024.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
         feather.replace();
-      </script>
-      <script src="script.js"></script>
+    </script>
+    <script src="script.js"></script>
 </body>
 </html>
